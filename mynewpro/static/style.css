@@ -1,0 +1,330 @@
+/* CSS Document */
+/* general */
+body{
+	background:url(images/bg.gif) repeat-x 0 0 #29201A;
+	color:#fff;
+	padding:0;
+	margin:0;
+	font:normal 12px Arial, Helvetica, sans-serif;
+}
+p, td, form, input, li, h1, h2, h3, h4, select, label{
+	padding:0;
+	margin:0;
+}
+img{
+	padding:0;
+	margin:0;
+	line-height:0;
+	font-size:0;
+	border:none;
+	display:block;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+.spacer{
+	clear:both;
+	line-height:0; 
+	font-size:0;
+}
+/* general */
+/* body start */
+.body_main{
+	padding:11px 0;
+}
+/* header start */
+.header{
+	background:url(images/header.jpg) no-repeat 0 0;
+}
+.logo{
+	padding:45px 0 203px 0;
+}
+.search{
+	background:url(images/searchbg.gif) no-repeat 0 0;
+	padding:44px 12px 18px 49px;
+}
+label{
+	padding:0 0 0 16px;
+	width:44px;
+	font:normal 11px/20px Arial, Helvetica, sans-serif;
+	background:url(images/search_icon.gif) no-repeat left center;
+	color:#C9C7C7;
+	background-color:inherit;
+	display:block;
+}
+input.searchbox{
+	padding:2px 0 0 3px;
+	font:normal 11px Arial, Helvetica, sans-serif;
+	color:#000;
+	background-color:#fff;
+	border:1px solid #000;
+	width:181px;
+}
+input.gobt{
+	width:38px;
+	height:16px;
+}
+.header_text{
+	padding:45px 0 0 69px;
+}
+.header_text h2{
+	font:normal 22px/24px Arial, Helvetica, sans-serif;
+	color:#FF9600;
+	background-color:inherit;
+}
+.header_text p{
+	font:normal 11px/15px Arial, Helvetica, sans-serif;
+	color:#fff;
+	background-color:inherit;
+}
+.header_text p span{
+	font-weight:bold;
+	color:#8DCA1C;
+	background-color:inherit;
+	text-decoration:underline;
+	display:block;
+}
+/* header end */
+/* nav start */
+.nav{
+	background-color:#E59D28;
+	color:#fff;
+	border-bottom:3px solid #29201A;
+	padding:2px 0 2px 52px;
+}
+.nav ul{
+}
+.nav ul li{
+	float:left;
+	width:96px;
+	font:bold 11px/38px Arial, Helvetica, sans-serif;
+	color:#fff;
+	background-color:inherit;
+	background:url(images/navbg.gif) no-repeat 0 0;
+	text-align:center;
+	margin:0 4px 0 0;
+}
+.nav ul li a{
+	color:#d22727;
+	background-color:inherit;
+}
+.nav ul li a:hover, .nav ul li a.active{
+	color:#ff5e00;
+	background-color:inherit;
+}
+/* nav end */
+/* welcome start */
+.welcome{
+	border:5px solid #fff;
+	background:url(images/welcomebg.gif) repeat-x 0 0 #26272B;
+	color:#fff;
+	padding:0 0 0 21px;
+}
+.welcome_heading{
+	font:normal 20px/34px Arial, Helvetica, sans-serif;
+	color:#26272B;
+	background-color:#B1C94F;
+}
+.welcome_text{
+	padding:31px 0 18px 0;
+	background:url(images/welcomepic.jpg) no-repeat right bottom;
+}
+.welcome_text p.welcome_body{
+	font:normal 11px/15px Arial, Helvetica, sans-serif;
+	color:#fff;
+	background-color:inherit;
+	width:405px;
+	padding:0 0 16px 0;
+}
+.welcome_text p.welcome_body a{
+	font-weight:bold;
+	color:#B1C94F;
+	background-color:inherit;
+	text-decoration:underline;
+}
+.welcome_text p.welcome_body a:hover{
+	text-decoration:none;
+}
+.welcome_text p.read{
+	width:99px;
+	font:bold 11px/22px Arial, Helvetica, sans-serif;
+	color:#29201A;
+	background-color:#B1C94F;
+	text-align:center;
+	padding:0 0 0 0;
+}
+.welcome_text p.read a{
+	color:#29201A;
+	background-color:#B1C94F;
+}
+.welcome_text p.read a:hover{
+	color:#29201A;
+	background-color:#B1C94F;
+	text-decoration:underline;
+}
+/* welcome end */
+/* body start */
+.body{
+	padding:16px 0 0 0;
+}
+/* body end */
+/* News and Events start */
+h2.news{
+	font:normal 20px/38px Arial, Helvetica, sans-serif;
+	color:#26272B;
+	background-color:#E6E6E6;
+	padding:0 0 0 19px;
+	width:248px;
+	
+}
+p.news_text{
+	font:normal 11px/15px Arial, Helvetica, sans-serif;
+	color:#E6E6E6;
+	background-color:inherit;
+	padding:12px 34px 2px 12px;
+}
+p.news_text span{
+	font-weight:bold;
+	font-size:14px;
+	color:#E59D28;
+	background-color:inherit;
+	line-height:15px;
+	text-decoration:underline;
+	padding:0 0 16px 0;
+	display:block;
+}
+p.news_text a{
+	font-weight:bold;
+	text-decoration:underline;
+	color:#B1C94F;
+	background-color:inherit;
+	text-align:right;
+	padding:0 0 0 138px;
+}
+p.news_text a:hover{
+	text-decoration:none;
+}
+/* News and Events end */
+/* banner start */
+.banner{
+	background:url(images/free_baner.jpg) no-repeat 0 0;
+	padding:19px 194px 8px 107px;
+}
+.banner h2{
+	font:bold 20px/22px Arial, Helvetica, sans-serif;
+	color:#682E02;
+	background-color:inherit;
+}
+.banner p.free_text{
+	font:normal 11px/15px Arial, Helvetica, sans-serif;
+	color:#29201A;
+	background-color:inherit;
+}
+.banner p.free_text a{
+	font-weight:bold;
+	color:#29201A;
+	background-color:inherit;
+	text-decoration:underline;
+}
+.banner p.free_text a:hover{
+	text-decoration:none;
+}
+a.click{
+	font:bold 11px/11px Arial, Helvetica, sans-serif;
+	color:#29201A;
+	background-color:inherit;
+	float:right;
+	text-decoration:underline;
+}
+a.click:hover{
+	text-decoration:none;
+}
+/* banner end */
+/* Service start */
+.service_heading{
+	padding:0 0 0 37px;
+	background:url(images/service_icon.gif) no-repeat left center;
+	font:normal 20px/49px Arial, Helvetica, sans-serif;
+	color:#E6E6E6;
+	background-color:inherit;
+}
+h3{
+	font:bold 16px/18px Arial, Helvetica, sans-serif;
+	color:#E6E6E6;
+	background-color:inherit;
+}
+p.service_text{
+	font:normal 11px/15px Arial, Helvetica, sans-serif;
+	color:#E6E6E6;
+	background-color:inherit;
+	padding:11px 0 14px 0;
+}
+p.service_text a{
+	font-weight:bold;
+	color:#B1C94F;
+	background-color:inherit;
+	text-decoration:underline;
+}
+p.service_text a:hover{
+	text-decoration:none;
+}
+.view{
+	background-color:#BA8029;
+	font:bold 11px/20px Arial, Helvetica, sans-serif;
+	color:#E6E6E6;
+}
+.view a{
+	background-color:#BA8029;
+	color:#E6E6E6;
+}
+.view a:hover{
+	background-color:#BA8029;
+	color:#B1C94F;
+}
+/* Service end */
+/* body main end */
+/* footer start */
+.footer{
+	background-color:#171009;
+	color:#E8E8EC;
+	padding:16px 0;
+}
+.footer ul{
+	width:365px;
+	margin:0 auto;
+}
+.footer ul li{
+	padding:0 9px;
+	font:normal 11px/15px Arial, Helvetica, sans-serif;
+	background-color:#171009;
+	color:#E8E8EC;
+	float:left;
+}
+.footer ul li a{
+	background-color:#171009;
+	color:#E8E8EC;
+}
+.footer ul li a:hover, .footer ul li a.active{
+	background-color:#171009;
+	color:#B1C94F;
+}
+.footer p{
+	font:normal 11px/18px Arial, Helvetica, sans-serif;
+	background-color:#171009;
+	color:#E8E8EC;
+	padding:4px 0 0 0;
+}
+.footer p a{
+	background-color:#171009;
+	color:#B1C94F;
+}
+.footer p a:hover{
+	background-color:#171009;
+	color:#B1C94F;
+}
+/* footer end */
